@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fragment_background"
+    android:id="@+id/fragment_open_item"
+    android:padding="@dimen/padding"
+    tools:context=".fragments.adapter.FragmentOpenItem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_open_item"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_open_item"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/title_open_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_open_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/image_open_item"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Заголовок"/>
+
+        <TextView
+            android:id="@+id/description_open_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="12sp"
+            android:textColor="#756F86"
+            app:layout_constraintTop_toBottomOf="@+id/title_open_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/example_long_description"/>
+
+        <ImageView
+            android:id="@+id/view_item_icon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="@dimen/padding"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/ic_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/view_open_item"/>
+
+        <TextView
+            android:id="@+id/view_open_item"
+            style="@style/open_item_text_view"
+            android:text="@string/example_view"
+            android:textColor="@color/grey"
+            app:layout_constraintStart_toEndOf="@+id/view_item_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_open_item"
+            />
+
+        <TextView
+            android:id="@+id/time_open_item"
+            style="@style/open_item_text_view"
+            android:text="@string/example_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_open_item"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/date_open_item"
+            style="@style/open_item_text_view"
+            android:text="@string/example_date"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/time_open_item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_open_item"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

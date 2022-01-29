@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_find"
+        android:title="@string/find"
+        android:icon="@drawable/ic_find"
+        />
+    <item
+        android:id="@+id/nav_works"
+        android:title="@string/works"
+        android:icon="@drawable/ic_work"/>
+
+    <item
+        android:id="@+id/nav_orders"
+        android:title="@string/my_orders"
+        android:icon="@drawable/ic_order"/>
+
+    <item
+        android:id="@+id/nav_cabinet"
+        android:title="@string/cabinet"
+        android:icon="@drawable/ic_cabinet"/>
+
+</menu>

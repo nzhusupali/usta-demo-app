@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_start_width">53sp</dimen>
+    <dimen name="logo_start_height">125sp</dimen>
+    <dimen name="logo_end_width">67sp</dimen>
+    <dimen name="logo_end_height">135sp</dimen>
+    <dimen name="padding">10dp</dimen>
+
+    // onBoarding item container
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="margin_start_end_title_text">40dp</dimen>
+    <dimen name="image_margin_onboard">50dp</dimen>
+
+
+</resources>

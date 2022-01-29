@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UstaDemoApp</string>
+
+    // bottom nav menu
+    <string name="find">iздеу</string>
+    <string name="works">Жұмыс</string>
+    <string name="my_orders">Менің тапсырыстарым</string>
+    <string name="cabinet">кабинет</string>
+
+    // custom Toolbar
+    <string name="news">Жаңалықтар</string>
+
+    <string name="find_specialist">Мамандарды табу</string>
+    <string name="if_u_customer">Егер сіз тапсырыс беруші болсаңыз</string>
+    <string name="find_client">Жаңа клиенттерді табыңыз</string>
+    <string name="if_u_specialist">Егер сіз мамаң болсаныз</string>
+    <string name="next">Әрі қарай</string>
+
+</resources>

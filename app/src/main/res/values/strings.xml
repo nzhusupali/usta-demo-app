@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">UstaDemoApp</string>
+    <string name="welcome_ru" translatable="false">Добро пожаловать</string>
+    <string name="welcome_kaz" translatable="false">Қош келдіңіз</string>
+    <string name="kaz" translatable="false">КАЗ</string>
+    <string name="ru" translatable="false">РУС</string>
+
+    // bottom nav menu
+    <string name="find">Поиск</string>
+    <string name="works">Работы</string>
+    <string name="my_orders">Мои заказы</string>
+    <string name="cabinet">кабинет</string>
+
+
+    // custom Toolbar
+    <string name="news">Новости</string>
+
+    //On Board
+    <string name="find_specialist">Находите специалистов</string>
+    <string name="if_u_customer">Если вы заказчик</string>
+    <string name="find_client">Находите новых клиентов</string>
+    <string name="if_u_specialist">Если вы специалист</string>
+    <string name="next">Далее</string>
+
+
+
+
+
+    <string name="example_title" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu.</string>
+    <string name="example_description" translatable="false">consectetur adipiscing elit. Id in volutpat risus tempor ornare.</string>
+    <string name="example_long_description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas ornare nulla hendrerit enim, turpis. Vel porttitor massa et quam vulputate placerat urna vitae. Suspendisse faucibus ultrices augue id pretium. Adipiscing risus tincidunt neque, ullamcorper mauris ultricies ut et, massa. In montes, velit ultricies sollicitudin ac egestas. Id proin elementum, bibendum quisque cras massa euismod arcu. Neque sed arcu cursus sit tristique eu commodo. Nisi, risus venenatis tristique at massa tincidunt mattis in. Bibendum proin aliquam dignissim vitae aliquet leo. Ultrices tincidunt eu id habitant. Cursus sed maecenas senectus augue.
+At nullam molestie ut felis volutpat massa metus venenatis. Suspendisse sed eleifend nisi, ut etiam dignissim adipiscing amet. Nulla in ultrices congue sed vitae, scelerisque pulvinar ullamcorper. Purus quam neque dictumst cras faucibus laoreet magnis. Eu egestas tempor arcu nulla. Sit felis, sagittis cursus condimentum. Mi dolor nisl nullam in etiam volutpat. </string>
+
+    <string name="example_view" translatable="false">532</string>
+    <string name="example_date" translatable="false">13.05.2021</string>
+    <string name="example_time" translatable="false">14:00</string>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_cabinet"
+    android:id="@+id/navigation">
+
+    <fragment
+        android:id="@+id/nav_find"
+        android:name="com.example.ustademoapp.fragments.FragmentFind"
+        tools:layout="@layout/fragment_find"
+        android:label="@string/find" />
+
+    <fragment
+        android:id="@+id/nav_works"
+        android:name="com.example.ustademoapp.fragments.FragmentWorks"
+        tools:layout="@layout/fragment_works"
+        android:label="@string/works" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.ustademoapp.fragments.FragmentOrders"
+        tools:layout="@layout/fragment_orders"
+        android:label="@string/my_orders" />
+
+    <fragment
+        android:id="@+id/nav_cabinet"
+        android:name="com.example.ustademoapp.fragments.FragmentCabinet"
+        android:label="@string/cabinet"
+        tools:layout="@layout/fragment_cabinet" />
+
+
+</navigation>
